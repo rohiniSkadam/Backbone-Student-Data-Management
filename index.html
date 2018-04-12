@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentData</title>
+
+</head>
+<body>
+<script type="text/javascript" data-main="main.js" src="node_modules/requirejs/require.js"></script>
+
+<div id="containerDiv">
+Name : <input type="text" id="name" > <br/>
+Roll No : <input type="text" id="rollNo"> <br/>
+Subject 1 : <input type="text" id="sub1"> <br/>
+Subject 2 : <input type="text" id="sub2"> <br/>
+
+<input id="submitBtn" class="submitBtn" type="button" value="Submit"/>
+<input id="searchBtn" class="searchBtn" type="button" value="Search By Name" />
+<input id="editBtn" class="editBtn" type="button" value="Edit" disabled />
+
+<div id="tblDiv">
+    <table id="studData" border="2px">
+        <tr><td>Name</td>
+            <td>Roll Num</td>
+            <td>Subject1 Marks</td>
+            <td>Subject2 Marks</td>
+            <td>Average</td></tr>
+    </table>
+</div>
+
+<p id="showData"></p>
+
+</div>
+</body>
+</html>
